@@ -1,0 +1,52 @@
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars
+
+# Ignore .terraform directory
+**/.terraform/*
+
+# Ignore any crash log files
+crash.log
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+cli.auto.hcl
+terraform.rc
+
+# Ignore plugin directory
+terraform.d/plugins/
+
+# Ignore files containing sensitive information
+*.pem
+*.p12
+*.key
+*.cer
+*.crt
+*.jks
+
+# Ignore provider credentials file
+terraform.tfvars
+
+# Ignore local .env files
+.envrc
+
+# Ignore logs
+*.log
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.swp
